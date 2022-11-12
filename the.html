@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>THE JERM</title>
+    <style>
+        @keyframes spin3D {
+          from { transform: rotateY(0deg) }
+          to { transform: rotateY(5898240deg) }
+        }
+        .spinhov3D:hover {
+          animation-name: spin3D;
+          animation-duration: 5s;
+          animation-iteration-count: 50;
+          /* linear | ease | ease-in | ease-out | ease-in-out */
+          animation-timing-function: ease-in-out;
+        }
+      </style>
+</head>
+<body>
+      <img src="TheThing.webp" width="250" height="250" class="spinhov3D"/>
+      <strong>Hover to spin</strong>
+</body>
+</html>

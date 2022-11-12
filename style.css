@@ -1,0 +1,256 @@
+.navbar {
+    background-image: url(Capture.PNG),linear-gradient(to bottom, rgb(168, 15, 15) 0%,
+        rgb(105, 23, 23) 100%);
+    background-size: 100% 100%, 100%;
+            
+    
+    width: 100%;
+    height: 60px;
+    margin: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    border-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    color: white;
+     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+      inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+      inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+      inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+      text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+.titlebar {
+    background: linear-gradient(to bottom, rgba(184,184,184,0.5) 0%,
+        rgba(160,160,160,0.33) 100%);
+        background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+.welcometext {
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.youtubelogo {
+    background: linear-gradient(to bottom, rgba(184,184,184,0.5) 0%,
+        rgba(160,160,160,0.33) 100%);
+        background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    width: 450px;
+    height: 100px;
+    margin: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+        
+    border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    
+}
+.youtubelogotext{
+    font-family: sans-serif;
+    margin: -30px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-size: 40px;
+    text-align: center
+}
+a {
+    color: white;
+}
+#tab {
+    background-image: linear-gradient(to bottom, rgb(168, 15, 15) 0%,
+        rgb(105, 23, 23) 100%);
+    float: right;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+        padding-top: 7px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 0px;
+    margin: 10px 2px;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 5px 0px rgba(125, 124, 124, 0.75),
+    inset 0px 0px 0px 1px rgba(50, 49, 49, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.social {
+    background: linear-gradient(to bottom, rgba(184,184,184,0.5) 0%,
+        rgba(160,160,160,0.33) 100%);
+        background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    width: 450px;
+    height: 200px;
+    margin: 10px;
+        margin-left: 10px;
+        margin-right: 5px;
+    border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+#socialicon{
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin:  2px 25px 2px 25px;
+    padding: 3px;
+    border-radius: 3px;
+    float: left;
+    color: white;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer {
+    background: linear-gradient(to bottom, rgba(184,184,184,0.5) 0%,
+    rgba(160,160,160,0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+        rgba(160, 160, 160, 0.33) 100%);
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+width: 100%;
+height: 150px;
+margin: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+color: white;
+box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+.footer2 {
+    background: linear-gradient(to bottom, rgba(184,184,184,0.5) 0%,
+    rgba(160,160,160,0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+        rgba(160, 160, 160, 0.33) 100%);
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+width: 100%;
+height: 150px;
+margin: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+color: white;
+box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/staatliches/v11/HI_OiY8KO6hCsQSoAPmtMYeVvpCNOw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/staatliches/v11/HI_OiY8KO6hCsQSoAPmtMYebvpA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  .raise:hover,
+  .raise:focus {
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 227, 86),
+    inset 0px -1px 0px 1px rgb(255 227 87/ -50%),
+    inset 0px 1px 0px 1px rgb(255 227 87/ 50%),
+    0px 1px 0px 0px rgb(255 227 87/ 25%) var(--hover);
+    transform: translateY(-0.25em);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 1425px) {
+    /* For mobile phones: */
+    .navbar, .titlebar, .footer, .footer2, #tab {
+      width: 100%;
+    }
+  }
