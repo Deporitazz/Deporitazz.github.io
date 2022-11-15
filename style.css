@@ -235,7 +235,9 @@ a {
     .titlebar,
     .footer,
     .footer2,
-
+    #tab {
+        width: 100%;
+    }
 
     /* inside media query */
     .desktop {
