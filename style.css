@@ -4,7 +4,7 @@
     background-size: 100% 100%, 100%;
 
 
-    width: 100%;
+    width: 98%;
     height: 60px;
     margin: 10px;
 
@@ -34,7 +34,7 @@
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
 
-    width: 100%;
+    width: 99%;
     height: 150px;
     margin: 10px;
     margin-left: 10px;
@@ -126,7 +126,7 @@ a {
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
     width: 25%;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     margin-right: 5px;
     border-radius: 5px;
@@ -160,7 +160,7 @@ a {
             rgba(160, 160, 160, 0.33) 100%);
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
-    width: 100%;
+    width: 99%;
     height: 150px;
     margin: 10px;
     margin-right: 5px;
@@ -178,7 +178,7 @@ a {
             rgba(160, 160, 160, 0.33) 100%);
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
-    width: 100%;
+    width: 99%;
     height: 150px;
 
     margin: 10px;
@@ -221,6 +221,13 @@ a {
     transform: translateY(-0.25em);
 }
 
+.desktop {
+    display: initial;
+}
+.mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 1425px) {
 
     /* For mobile phones: */
@@ -228,7 +235,23 @@ a {
     .titlebar,
     .footer,
     .footer2,
-    #tab {
+
+
+    /* inside media query */
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: initial;
+    }
+    
+    
+    .navbar.show {
+      grid-area: 1 / 1 / 5 / 3;
+      z-index: 999;
+    }
+
+    img.youtubelogo2013 {
         width: 100%;
     }
 }
