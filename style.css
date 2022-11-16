@@ -251,12 +251,6 @@ a {
 
     /* For mobile phones: */
     .navbar,
-<<<<<<< HEAD
-    .titlebar,
-    .footer,
-    .footer2,
-=======
->>>>>>> 81571eced8b7d3a09b7a4159e9b0ad1c4996b967
     #tab {
         width: 100%;
     }
@@ -264,8 +258,6 @@ a {
     /* inside media query */
     .navbar {
         display: none;
-    }
-    .tab {
     }
     .mobile {
         display: initial;
