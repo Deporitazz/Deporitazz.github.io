@@ -256,7 +256,7 @@ a {
     }
 
     /* inside media query */
-    .desktop {
+    .navbar {
         display: none;
     }
     .mobile {
