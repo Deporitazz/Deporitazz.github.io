@@ -1,12 +1,12 @@
-.navbar {
+nav .desktop {
     background-image: url(Capture.PNG), linear-gradient(to bottom, rgb(168, 15, 15) 0%,
             rgb(105, 23, 23) 100%);
     background-size: 100% 100%, 100%;
 
 
-    width: 98%;
+    width: 99%;
     height: 60px;
-    margin: 10px;
+    margin: 10px 10px;
 
     border-radius: 5px;
 
@@ -19,31 +19,26 @@
 
     padding: 10px;
 }
-.mobile {
-    background-image: url(Capture.PNG), linear-gradient(to bottom, rgb(168, 15, 15) 0%,
+
+nav .mobile {
+    background-image: linear-gradient(to bottom, rgb(168, 15, 15) 0%,
     rgb(105, 23, 23) 100%);
-background-size: 100% 100%, 100%;
 
+    width: 98%;
+    height: 60px;
+    margin: 10px;
+}
 
-width: 98%;
-height: 60px;
-margin: 10px;
-
-border-radius: 5px;
-
-color: white;
-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
-inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
-inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
-inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+nav .desktop {
+    box-sizing: border-box;
+    display: block;
 }
 
 #logo {
     display: inline;
 }
 
-.navbar * {
+nav * {
     display: inline;
 }
 
@@ -128,7 +123,7 @@ a {
     padding: 5px;
     padding-top: 7px;
     padding-bottom: 0px;
-    margin: 10px 2px;
+    margin: 3px 2px;
     border-radius: 5px;
     box-shadow: 0px 6px 5px 0px rgba(125, 124, 124, 0.75),
         inset 0px 0px 0px 1px rgba(50, 49, 49, 0.5),
@@ -158,7 +153,7 @@ a {
     overflow: hidden;
 }
 
-#socialicon {
+.socialicon {
     background-repeat: no-repeat;
     background-position: center top;
     position: relative;
@@ -241,26 +236,25 @@ a {
 }
 
 .desktop {
+    display: block;
+}
+.tab {
     display: initial;
 }
 .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 1425px) {
-
-    /* For mobile phones: */
-    .navbar,
-    #tab {
-        width: 100%;
-    }
-
+@media only screen and (max-width: 800px) {
     /* inside media query */
-    .navbar {
+    .desktop {
+        display: none !important;
+    }
+    .tab {
         display: none;
     }
     .mobile {
-        display: initial;
+        display: block;
     }
     
     
