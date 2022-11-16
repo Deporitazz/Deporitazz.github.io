@@ -19,6 +19,25 @@
 
     padding: 10px;
 }
+.mobile {
+    background-image: url(Capture.PNG), linear-gradient(to bottom, rgb(168, 15, 15) 0%,
+    rgb(105, 23, 23) 100%);
+background-size: 100% 100%, 100%;
+
+
+width: 98%;
+height: 60px;
+margin: 10px;
+
+border-radius: 5px;
+
+color: white;
+box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
 
 #logo {
     display: inline;
@@ -232,15 +251,18 @@ a {
 
     /* For mobile phones: */
     .navbar,
+<<<<<<< HEAD
     .titlebar,
     .footer,
     .footer2,
+=======
+>>>>>>> 81571eced8b7d3a09b7a4159e9b0ad1c4996b967
     #tab {
         width: 100%;
     }
 
     /* inside media query */
-    .desktop {
+    .navbar {
         display: none;
     }
     .tab {
