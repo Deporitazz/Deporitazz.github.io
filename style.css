@@ -1,8 +1,8 @@
 nav .desktop {
-    background-image: url(Capture.PNG), linear-gradient(to bottom, rgb(168, 15, 15) 0%,
-            rgb(105, 23, 23) 100%);
+    background-image: url(Capture.PNG), linear-gradient(to bottom, rgb(15, 99, 168) 0%,
+            rgb(8, 68, 118) 100%);
     background-size: 100% 100%, 100%;
-
+    font-family: 'frutiger';
 
     width: 99%;
     height: 60px;
@@ -22,9 +22,9 @@ nav .desktop {
 
 nav .mobile {
     box-sizing: border-box;
-    background-image: url(mobilenavbar.png), linear-gradient(to bottom, rgb(168, 15, 15) 0%, rgb(105, 23, 23) 100%);
+    background-image: url(mobilenavbar.png), linear-gradient(to bottom, rgb(15, 99, 168) 0%, rgb(8, 68, 118) 100%);
     background-size: 100% 100%;
-
+    font-family: 'frutiger';
     width: 98%;
     height: 80px;
     margin: 10px;
@@ -41,14 +41,13 @@ nav .mobile {
     color: white;
 }
 .mobiletab {
-    background-image: linear-gradient(to bottom, rgb(168, 15, 15) 0%,
-    rgb(105, 23, 23) 100%);
+    background-image: linear-gradient(to bottom, rgb(15, 99, 168) 0%,
+    rgb(8, 68, 118) 100%);
 
     font-family: 'frutiger';
     width: 20px;
     height: 10px;
     text-align: center;
-    float: inherit;
     font-size: 10px;
     width: 20px;
     border-radius: 5px;
@@ -98,7 +97,7 @@ nav * {
 .welcometext {
     padding: 20px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'frutiger';
     font-size: 30px;
 }
 
@@ -132,7 +131,7 @@ nav * {
 }
 
 .youtubelogotext {
-    font-family: sans-serif;
+    font-family: 'frutiger';
     margin: -30px;
     margin-left: 20px;
     margin-right: 25px;
@@ -145,8 +144,10 @@ a {
 }
 
 .tab {
-    background-image: linear-gradient(to bottom, rgb(168, 15, 15) 0%,
-            rgb(105, 23, 23) 100%);
+    background-image: linear-gradient(to bottom, rgb(15, 99, 168) 0%,
+    rgb(8, 68, 118) 100%);
+
+    font-family: 'frutiger';
     float: right;
     width: 80px;
     height: 30px;
@@ -183,6 +184,7 @@ a {
         inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
     text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
     overflow: hidden;
+    font-family: 'frutiger';
 }
 
 .socialicon {
@@ -198,7 +200,7 @@ a {
     color: white;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'frutiger';
 }
 
 .footer {
@@ -217,6 +219,7 @@ a {
         inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
         inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
     text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    font-family: 'frutiger';
 }
 
 .footer2 {
@@ -238,6 +241,7 @@ a {
         inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
         inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
     text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    font-family: 'frutiger';
 }
 
 .raise:hover,
