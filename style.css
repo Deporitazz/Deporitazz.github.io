@@ -29,6 +29,7 @@ nav .mobile {
     height: 80px;
     margin: 10px;
     padding: 5px;
+    border-radius: 5px;
 }
 .mobiletext {
     display: block;
@@ -40,7 +41,11 @@ nav .mobile {
     color: white;
 }
 .mobiletab {
-    
+    font-family: 'frutiger';
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    float: inherit;
 }
 
 nav .desktop {
