@@ -55,7 +55,6 @@ nav .mobile {
     padding-bottom: 0px;
     margin: 3px 2px;
     border-radius: 5px;
-    border-radius: 5px;
     box-shadow: 0px 6px 5px 0px rgba(125, 124, 124, 0.75),
         inset 0px 0px 0px 1px rgba(50, 49, 49, 0.5),
         inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
@@ -64,6 +63,7 @@ nav .mobile {
     cursor: pointer;
     text-decoration: none;
 }
+
 
 nav .desktop {
     box-sizing: border-box;
