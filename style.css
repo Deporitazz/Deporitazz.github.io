@@ -45,6 +45,7 @@ nav .mobile {
     rgb(8, 68, 118) 100%);
 
     font-family: 'frutiger';
+    float: right;
     width: 80px;
     height: 30px;
     text-align: center;
