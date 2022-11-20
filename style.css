@@ -4,7 +4,7 @@ nav .desktop {
     background-size: 100% 100%, 100%;
     font-family: 'frutiger';
 
-    max-width: 70%;
+    max-width: 80%;
     height: 60px;
     margin: auto;
 
@@ -53,7 +53,7 @@ nav .mobile {
     width: 70%;
     height: 20px;
     text-align: center;
-    font-size: 50%;
+    font-size: 100%;
     padding: 5px;
     padding-top: 7px;
     margin: 10px;
