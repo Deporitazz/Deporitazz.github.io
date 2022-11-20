@@ -4,7 +4,7 @@ nav .desktop {
     background-size: 100% 100%, 100%;
     font-family: 'frutiger';
 
-    max-width: 80%;
+    max-width: 70%;
     height: 60px;
     margin: auto;
 
@@ -25,9 +25,9 @@ nav .mobile {
     background-image: url(mobilenavbar.png), linear-gradient(to bottom, rgba(15, 99, 168, 0.416) 0%, rgba(8, 68, 118, 0.416) 100%);
     background-size: 100% 100%;
     font-family: 'frutiger';
-    width: 100%;
+    width: 98%;
     height: 80px;
-    margin: auto;
+    margin: 10px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -50,10 +50,10 @@ nav .mobile {
     rgb(8, 68, 118) 100%);
 
     font-family: 'frutiger';
-    width: 70%;
+    width: 50%;
     height: 20px;
     text-align: center;
-    font-size: 100%;
+    font-size: 50%;
     padding: 5px;
     padding-top: 7px;
     margin: 10px;
@@ -88,9 +88,11 @@ nav * {
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
 
-    width: 70%;
+    width: 99%;
     height: 150px;
-    margin: auto;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
     border-radius: 5px;
 
     color: white;
