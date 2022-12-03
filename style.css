@@ -1,7 +1,7 @@
 
 
 nav .desktop {
-    background-image: url(Capture.PNG), linear-gradient(to bottom, rgba(15, 99, 168, 0.416) 0%,
+    background-image: url(Capture.png), linear-gradient(to bottom, rgba(15, 99, 168, 0.416) 0%,
             rgba(8, 68, 118, 0.416) 100%);
     background-size: 100% 100%, 100%;
     font-family: 'frutiger';
@@ -24,7 +24,7 @@ nav .desktop {
 
 nav .mobile {
     box-sizing: border-box;
-    background-image: url(mobile.png), linear-gradient(to bottom, rgba(15, 99, 168, 0.416) 0%, rgba(8, 68, 118, 0.416) 100%);
+    background-image: url(mobilenavbar.png), linear-gradient(to bottom, rgba(15, 99, 168, 0.416) 0%, rgba(8, 68, 118, 0.416) 100%);
     background-size: 100% 100%;
     font-family: 'frutiger';
     width: 98%;
