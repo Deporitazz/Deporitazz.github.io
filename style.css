@@ -160,14 +160,14 @@ a {
 
     font-family: 'frutiger';
     float: right;
-    max-width: 25%;
+    max-width: 50%;
     height: 30px;
     text-align: center;
     font-size: 20px;
     padding: 5px;
     padding-top: 7px;
     padding-bottom: 0px;
-    margin: 3px 2px;
+    margin: 2px 10px;
     border-radius: 5px;
     box-shadow: 0px 6px 5px 0px rgba(125, 124, 124, 0.75),
         inset 0px 0px 0px 1px rgba(50, 49, 49, 0.5),
