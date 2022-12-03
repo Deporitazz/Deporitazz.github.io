@@ -160,7 +160,7 @@ a {
 
     font-family: 'frutiger';
     float: right;
-    width: 90px;
+    max-width: 25%;
     height: 30px;
     text-align: center;
     font-size: 20px;
