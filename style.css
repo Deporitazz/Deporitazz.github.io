@@ -114,8 +114,9 @@ background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
     rgba(160, 160, 160, 0.33) 100%);
 
 width: 99%;
+
 height: 125px;
-margin: auto;
+margin: 10px;
 border-radius: 5px;
 text-align: center;
 
