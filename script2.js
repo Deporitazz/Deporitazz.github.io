@@ -1,10 +1,6 @@
-let showNav=false;
-
-function navToggle() {
-    showNav=!showNav;
-    if (showNav) {
-        document.getElementsByTagName('nav').item(0).classList.add('show');
-    } else {
-        document.getElementsByTagName('nav').item(0).classList.remove('show');
-    }
-}
+let btn = document.createElement("button");
+btn.innerHTML = "Save";
+btn.addEventListener("click", function () {
+  alert("Button is clicked");
+});
+document.body.appendChild(btn);
