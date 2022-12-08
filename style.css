@@ -321,7 +321,10 @@ a {
 .mobiletab {
     display: none;
 }
-.mobile, .mobile2 {
+.mobile {
+    display: none;
+}
+.mobile2 {
     display: none;
 }
 
@@ -344,7 +347,10 @@ a {
     .mobiletab {
         display: inline-block;
     }
-    .mobile, .mobile2 {
+    .mobile {
+        display: block;
+    }
+    .mobile2 {
         display: block;
     }
     .titlebar {
