@@ -1,6 +1,5 @@
 let btn = document.createElement("button");
-btn.innerHTML = "Save";
-btn.addEventListener("click", function () {
-  alert("Button is clicked");
-});
+btn.innerHTML = "Submit";
+btn.type = "submit";
+btn.name = "formBtn";
 document.body.appendChild(btn);
