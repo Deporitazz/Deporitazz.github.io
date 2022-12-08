@@ -351,7 +351,7 @@ a {
         display: block;
     }
     .mobile2 {
-        display: block;
+        display: block !important;
     }
     .titlebar {
         display: none !important;
