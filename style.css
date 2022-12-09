@@ -1,5 +1,6 @@
 
 
+
 nav .desktop {
     background-image: url(Capture2.png), linear-gradient(to bottom, rgba(15, 99, 168, 0.678) 0%,
             rgba(8, 68, 118, 0.678) 100%);
@@ -27,7 +28,7 @@ nav .mobile {
     background-image: linear-gradient(to bottom, rgb(15, 99, 168) 0%, rgb(8, 69, 118) 100%);
     background-size: 100% 100%;
     font-family: 'frutiger';
-    width: 105%;
+    width: 102%;
     height: 45px;
     margin-left: -8px;
     margin-right: auto;
@@ -38,7 +39,7 @@ nav .mobile2 {
     background-image: linear-gradient(to bottom, rgb(4, 67, 119) 0%, rgb(6, 43, 73) 100%);
     background-size: 100% 100%;
     font-family: 'frutiger';
-    width: 104%;
+    width: 100%;
     height: 45px;
     margin-left: -8px;
     margin-right: auto;
@@ -61,14 +62,14 @@ nav .mobile2 {
     justify-content: center;
 }
 .mobiletab {
-    background-image: linear-gradient(to bottom, rgba(15, 99, 168, 0.096) 0%,
-    rgb(8, 68, 118, 0.096) 100%);
+    background-image: linear-gradient(to bottom, rgba(15, 99, 168, 0) 0%,
+    rgba(118, 8, 8, 0) 100%);
 
     font-family: 'frutiger';
-    width: 50%;
+    width: 20%;
     height: 22px;
     text-align: center;
-    font-size: 75%;
+    font-size: 120%;
     padding-top: 5px;
 
     border-radius: 5px;
@@ -76,7 +77,7 @@ nav .mobile2 {
     text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
     cursor: pointer;
     text-decoration: none;
-    position:relative;top:-12px;
+    position:relative;top:2px;
 
 }
 
@@ -100,7 +101,10 @@ header .titlebar {
 header * {
     display: inline;
 }
-
+a:is(:link, :active, :visited).active {
+    color:cadetblue;
+    background-color: black;
+}
 
 
 header .titlebar {
@@ -314,6 +318,17 @@ a {
     transform: translateY(-0.25em);
 }
 
+/*
+.raise:hover,
+.raise:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  
+}
+*/
 .desktop {
     display: block;
 }
