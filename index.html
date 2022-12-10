@@ -10,14 +10,106 @@
     <link rel="stylesheet" href="style.css">
     <script src="script2.js"></script>
     <style>
-        .navbar{
-            font-family: "Frutiger";
+        .accordion1 {
+            background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          width: 102.4%;
+        margin-left: -8px;
+        margin-right: auto;
+          height: 100px;
+          border: none;
+
+          outline: none;
+          transition: 0.4s;
+          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    font-family: 'frutiger';
         }
-    </style>
+        .sec1 {
+            display: flex;
+            padding-left: 160px;
+            position:relative;top:-75px;
+
+        }
+        .sec2 {
+            display: flex;
+            padding-left: 20px;
+            position:relative;top:-25px;
+
+        }
+        .accordion2 {
+            background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(160, 160, 160, 0.33) 100%);
+          color: rgb(255, 255, 255);
+          cursor: pointer;
+          padding: 18px;
+          width: 102.4%;
+        margin-left: -8px;
+        margin-right: auto;
+          height: 100px;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    font-size: 40px;
+    font-family: 'frutiger';
+    text-align: center;
+        }
+        .youtubelogomobile {
+            height: 60px;
+            position:relative;top:20px;
+            position: relative;left: -255px;
+        }
+        
+        .active, .accordion:hover {
+            background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
+            rgba(79, 79, 79, 0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(68, 68, 68, 0.33) 100%);
+            box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+        }
+        .panel {
+          padding: 0 18px;
+          background: linear-gradient(to bottom, rgba(100, 100, 100, 0.5) 0%,
+            rgba(54, 54, 54, 0.33) 100%);
+    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+            rgba(29, 29, 29, 0.33) 100%);
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+         width: 96.9%;
+         color: white;
+        margin-left: -8px;
+        margin-right: auto;
+        }
+        </style>
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>The Vault | Home</title>
 </head>
-<body style="background-image: url(bg1.jpg); background-attachment:fixed; background-size:cover;">
+<body style="background-image: url(bg1.jpg); background-attachment:fixed; background-size:cover; font-family: 'Frutiger';">
     <nav>
         <div class="desktop box2d">
             <img src="faviconcat copy.png" alt="SUSSS" width="40" id="logo" class="box2d">
@@ -87,11 +179,43 @@
             </div>
         </a>
     </div>
-    <div class="footer">
-        <p>footer</p>
+    <button class="accordion1 accordion"><img src="youtube2.png" class="youtubelogomobile"><p class="sec1">Silly Video</p></button>
+    <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="footer2">
-        <p>footer 2</p>
+
+    <button class="accordion2 accordion"><p class="sec2">Socials</p></button>
+    <div class="panel">
+        <a href="https://youtube.com/channel/UCKur_0U_8zmAOx-xwZY8W6w">
+            <div class="raise socialmobile">
+                <img src="youtube.png" alt="Twitter Logo" class="tubelogo">
+                <p class="twittah">twittah</p>
+            </div>
+        </a>
+        <a href="https://twitter.com/deporitazz?s=09">
+            <div class="raise socialmobile">
+                <img src="twitter.png" alt="Twitter Logo" class="twitlogo">
+                <p class="youtoobe">youtoobe</p>
+            </div>
+        </a>
     </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
 </body>
 </html>
