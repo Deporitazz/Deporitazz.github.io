@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var ws_uri = "ws://[your-domain]:9600";
 var websocket = new WebSocket(ws_uri);
 // on websocket open:
@@ -58,4 +59,20 @@ function MessageAdd(message) {
 
 	chat_messages.insertAdjacentHTML("beforeend", message);
 	chat_messages.scrollTop = chat_messages.scrollHeight;
+=======
+// /public/javascript.js
+
+// Get the current username from the cookies
+var user = cookie.get('user');
+if (!user) {
+
+  // Ask for the username if there is none set already
+  user = prompt('Choose a username:');
+  if (!user) {
+    alert('We cannot work with you like that!');
+  } else {
+    // Store it in the cookies for future use
+    cookie.set('user', user);
+  }
+>>>>>>> 663386a5dffcd2d12e7d6c8a339dfcd243c46606
 }
