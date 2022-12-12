@@ -1,7 +1,6 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,119 +10,126 @@
     <script src="script2.js"></script>
     <style>
         .accordion1 {
+            display: flex;
+            align-items: center;
             background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
-            rgba(160, 160, 160, 0.33) 100%);
-    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
-            rgba(160, 160, 160, 0.33) 100%);
-          color: rgb(255, 255, 255);
-          cursor: pointer;
-          width: 103.5%;
-        margin-left: -8px;
-        margin-right: auto;
-          height: 100px;
-          border: none;
+                    rgba(160, 160, 160, 0.33) 100%);
+            background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+                    rgba(160, 160, 160, 0.33) 100%);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            width: 103.5%;
+            margin-left: -8px;
+            margin-right: auto;
+            height: 100px;
+            border: none;
 
-          outline: none;
-          transition: 0.4s;
-          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
-    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
-    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
-    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
-    font-family: 'frutiger';
+            outline: none;
+            transition: 0.4s;
+            box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+                inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+                inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+                inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+            text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+            font-size: 40px;
+            font-family: 'frutiger';
         }
+
         .sec1 {
-            display: flex;
-            padding-left: 160px;
-            position:relative;top:-75px;
 
-        }
-        .sec2 {
-            display: flex;
             padding-left: 20px;
-            position:relative;top:-25px;
+            margin: 0;
+        }
+
+        .sec2 {
+            padding-left: 20px;
+            /* position:relative;top:-25px; */
 
         }
+
         .accordion2 {
             background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
-            rgba(160, 160, 160, 0.33) 100%);
-    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
-            rgba(160, 160, 160, 0.33) 100%);
-          color: rgb(255, 255, 255);
-          cursor: pointer;
-          padding: 18px;
-          width: 103.5%;
-        margin-left: -8px;
-        margin-right: auto;
-          height: 100px;
-          border: none;
-          text-align: left;
-          outline: none;
-          font-size: 15px;
-          transition: 0.4s;
-          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
-    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
-    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
-    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
-    font-size: 40px;
-    font-family: 'frutiger';
-    text-align: center;
+                    rgba(160, 160, 160, 0.33) 100%);
+            background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+                    rgba(160, 160, 160, 0.33) 100%);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            padding: 18px;
+            width: 103.5%;
+            margin-left: -8px;
+            margin-right: auto;
+            height: 100px;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+                inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+                inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+                inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+            text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+            font-size: 40px;
+            font-family: 'frutiger';
+            text-align: center;
         }
+
         .youtubelogomobile {
             height: 60px;
-            position:relative;top:20px;
-            position: relative;left: -125px;
         }
-        
-        .active, .accordion:hover {
+
+        .active,
+        .accordion:hover {
             background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
-            rgba(79, 79, 79, 0.33) 100%);
-    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
-            rgba(68, 68, 68, 0.33) 100%);
+                    rgba(79, 79, 79, 0.33) 100%);
+            background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+                    rgba(68, 68, 68, 0.33) 100%);
             box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
-    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
-    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
-    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+                inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+                inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+                inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
         }
+
         .panel {
-          padding: 0 18px;
-          background: linear-gradient(to bottom, rgba(100, 100, 100, 0.5) 0%,
-            rgba(54, 54, 54, 0.33) 100%);
-    background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
-            rgba(29, 29, 29, 0.33) 100%);
-          max-height: 0;
-          overflow: hidden;
-          transition: max-height 0.2s ease-out;
-          box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
-    inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
-    inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
-    inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
-         width: 94.5%;
-         color: white;
-        margin-left: -8px;
-        margin-right: auto;
+            padding: 0 18px;
+            background: linear-gradient(to bottom, rgba(100, 100, 100, 0.5) 0%,
+                    rgba(54, 54, 54, 0.33) 100%);
+            background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
+                    rgba(29, 29, 29, 0.33) 100%);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+                inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+                inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+                inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+            width: 94.5%;
+            color: white;
+            margin-left: -8px;
+            margin-right: auto;
         }
-        </style>
+    </style>
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <title>The Vault | Home</title>
 </head>
-<body style="background-image: url(bg1.jpg); background-attachment:fixed; background-size:cover; font-family: 'Frutiger';">
+
+<body
+    style="background-image: url(bg1.jpg); background-attachment:fixed; background-size:cover; font-family: 'Frutiger';">
     <nav>
         <div class="desktop box2d">
             <img src="faviconcat copy.png" alt="SUSSS" width="40" id="logo" class="box2d">
-            <h1 style="margin: 17px; margin-left: 50px; font-size: 40px;    position:relative;top:-5px" class="box2d">The Vault</p>
+            <h1 style="margin: 17px; margin-left: 50px; font-size: 40px;    position:relative;top:-5px" class="box2d">
+                The Vault</p>
                 <a href="https://github.com/Deporitazz" class="tab raise">
                     Projects
                 </a>
                 <a href="old-page.html" class="tab raise box2d">
                     Old page
-                </a>        
+                </a>
                 <a href="page-2.html" class="tab raise box2d">
                     Page 2
                 </a>
-                <a href="index.html" class="tab raise box2d" >
+                <a href="index.html" class="tab raise box2d">
                     Home
                 </a>
                 <button type="submit" name="formBtn" class="tab box2d" style="font-family: 'Frutiger';">
@@ -136,7 +142,7 @@
         </div>
         <div class="mobile2 box2d">
             <div class="links">
-                <a href="index.html" class="mobiletab raise box2d" >
+                <a href="index.html" class="mobiletab raise box2d">
                     Home
                 </a>
                 <a href="page-2.html" class="mobiletab raise box2d">
@@ -144,7 +150,7 @@
                 </a>
                 <a href="old-page.html" class="mobiletab raise box2d">
                     Old page
-                </a>        
+                </a>
                 <a href="https://github.com/Deporitazz" class="mobiletab raise box2d">
                     Projects
                 </a>
@@ -179,12 +185,18 @@
             </div>
         </a>
     </div>
-    <button class="accordion1 accordion"><img src="youtube2.png" class="youtubelogomobile"><p class="sec1">Silly Video</p></button>
+    <button class="accordion1 accordion"><img src="youtube2.png" class="youtubelogomobile">
+        <p class="sec1">Silly Video</p>
+    </button>
     <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
     </div>
 
-    <button class="accordion2 accordion"><p class="sec2">Socials</p></button>
+    <button class="accordion2 accordion">
+        <p class="sec2">Socials</p>
+    </button>
     <div class="panel">
         <a href="https://youtube.com/channel/UCKur_0U_8zmAOx-xwZY8W6w">
             <div class="raise socialmobile">
@@ -204,18 +216,19 @@
     <script>
         var acc = document.getElementsByClassName("accordion");
         var i;
-        
+
         for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-              panel.style.maxHeight = null;
-            } else {
-              panel.style.maxHeight = panel.scrollHeight + "px";
-            } 
-          });
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
         }
-        </script>
+    </script>
 </body>
+
 </html>
