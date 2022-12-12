@@ -408,7 +408,15 @@ a {
 .social {
     display: block;
 }
-
+.panel {
+    display: none;
+}
+.accordion1 {
+    display: none !important;
+}
+.accordion2 {
+    display: none;
+}
 @media only screen and (max-width: 800px) {
     /* inside media query */
     .desktop {
@@ -445,6 +453,15 @@ a {
 
     img.youtubelogo2013 {
         width: 100%;
+    }
+    .panel {
+        display: block;
+    }
+    .accordion1 {
+        display: flex !important;
+    }
+    .accordion2 {
+        display: flex !important;
     }
 }
 
