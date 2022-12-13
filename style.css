@@ -7,7 +7,7 @@ nav .desktop {
     background-size: 100% 100%, 100%;
     font-family: 'frutiger';
 
-    max-width: 75%;
+    max-width: 65%;
     height: 60px;
     margin: auto;
 
@@ -39,7 +39,7 @@ nav .mobile2 {
     background-image: linear-gradient(to bottom, rgb(4, 67, 119) 0%, rgb(6, 43, 73) 100%);
     background-size: 100% 100%;
     font-family: 'frutiger';
-    width: 99.9%;
+    width: 99%;
     height: 45px;
     margin-left: -8px;
     margin-right: auto;
@@ -69,7 +69,7 @@ nav .mobile2 {
     width: 20%;
     height: 22px;
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
     padding-top: 5px;
 
     border-radius: 5px;
@@ -88,7 +88,7 @@ nav .desktop {
 }
 
 #logo {
-    display: inline;
+    display: flexbox;
 }
 
 nav * {
@@ -113,12 +113,13 @@ header .titlebar {
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
  
-    max-width: 75%;
+    max-width: 65%;
     height: 150px;
     padding-top: 10px;
     margin: auto;
     margin-top: 29px;
     text-align: center;
+    font-size: 30px;
     color: white;
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
         inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
@@ -151,6 +152,11 @@ text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
     text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
 }
 
+.container {
+    max-width: 65%;
+    margin: 10px auto;
+}
+
 .youtubelogo {
     background: linear-gradient(to bottom, rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
@@ -158,9 +164,6 @@ text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
             rgba(160, 160, 160, 0.33) 100%);
     width: 25%;
     height: 100px;
-    margin: 10px;
-    margin-left: 10px;
-    margin-right: 5px;
 
     border-radius: 5px;
     border-top-left-radius: 5px;
@@ -235,8 +238,7 @@ a {
             rgba(160, 160, 160, 0.33) 100%);
     width: 25%;
     height: 300px;
-    margin: 10px;
-    margin-right: 5px;
+    margin-top: 10px;
     border-radius: 5px;
     color: white;
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
@@ -326,10 +328,8 @@ footer .footer {
             rgba(160, 160, 160, 0.33) 100%);
     background-image: linear-gradient(rgba(184, 184, 184, 0.5) 0%,
             rgba(160, 160, 160, 0.33) 100%);
-    width: 99%;
     height: 150px;
-    margin: 10px;
-    margin-right: 5px;
+    margin: 10px auto;
     border-radius: 5px;
     color: white;
     box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
@@ -416,7 +416,7 @@ text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
     display: none !important;
 }
 .accordion2 {
-    display: none;
+    display: none !important;
 }
 .mobilefooter {
     display: none;
