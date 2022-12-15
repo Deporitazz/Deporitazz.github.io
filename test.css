@@ -1,0 +1,22 @@
+nav .desknav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 34px;
+    box-sizing: border-box;
+    display: block;
+    font-family: "Frutiger";
+    background: url(jq-global-nav.png) repeat-x 0 bottom #252525;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    display:inline-block;
+}
+
+nav a:hover {
+    background-image: linear-gradient(0deg, black, grey);
+}
