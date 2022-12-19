@@ -8,9 +8,47 @@
     display: block;
     font-family: "Frutiger";
     background: url(jq-global-nav.png) repeat-x 0 bottom #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desklargelogo {
+    background: linear-gradient(to bottom, rgb(211, 165, 242) 0%,
+            rgba(172, 132, 199) 100%);
+    background-image: linear-gradient(rgba(211, 165, 242) 0%,
+            rgb(172, 132, 199) 100%);
+ 
+    max-width: 65%;
+    height: 150px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 39px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75),
+        inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5),
+        inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
+        inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: left;
 }
 
 .logo {
     width: 25px;
     height: 25px;
+}
+.largelogo {
+    width: 125px;
+    margin-bottom: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Frutiger";
+}
+@font-face {
+    font-family: "frutiger";
+    src: url('Frutiger.ttf');
 }
