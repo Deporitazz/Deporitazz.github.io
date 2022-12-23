@@ -7,7 +7,7 @@
     box-sizing: border-box;
     display: block;
     font-family: "Frutiger";
-    background: url(jq-global-nav.png) repeat-x 0 bottom #252525;
+    background: url(jq-global-nav.png) repeat-x 0 bottom #252525 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,17 +112,3 @@ ul {
     inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5),
     inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);;
 }
-.dropbtn {
-    background-image: url(buttoninactive.png);
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    height: 24px;
-    width: 30px;
-  }
-  .dropbtn:hover {
-    background-image: url(buttonhover.png);
-  }
-  .dropbtn:focus {
-    background-image: url(buttonactive.png);
-  }
