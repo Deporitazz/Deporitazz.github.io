@@ -117,12 +117,12 @@ ul {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    height: 34px;
-    align-self: right;
+    height: 24px;
+    width: 30px;
   }
   .dropbtn:hover {
     background-image: url(buttonhover.png);
   }
-  .dropbtn:active {
+  .dropbtn:focus {
     background-image: url(buttonactive.png);
   }
