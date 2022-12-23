@@ -114,11 +114,11 @@ ul {
 }
 .dropbtn {
     background-image: url(buttoninactive.png);
-    color: white;
-    padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    height: 34px;
+    align-self: right;
   }
   .dropbtn:hover {
     background-image: url(buttonhover.png);
