@@ -142,7 +142,7 @@ ul {
   display: block;
 }
 .dropdown a:hover {
-  background-image:  url("github-mark.png"), linear-gradient(rgba(211, 165, 280) 0%, rgb(172, 132, 280) 100%);
+  background-image: linear-gradient(rgba(211, 165, 280) 0%, rgb(172, 132, 280) 100%);
 }
 .show {
   display: block;
