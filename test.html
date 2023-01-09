@@ -16,7 +16,7 @@
             Cerulean
         </a>
         <div class="dropdown">
-			<button onclick="myFunction()" class="dropbtn"><img id="git" src="github-mark.png" alt="hjbdgshfjgfdhjdsbgf"></button>
+			<button class="dropbtn" id="git"></button>
             <div id="myDropdown" class="dropdown-content">
               <a href="#home">Home</a>
               <a href="#about">About</a>
@@ -29,6 +29,10 @@
             function myFunction() {
               document.getElementById("myDropdown").classList.toggle("show");
             }
+			  
+			  document.getElementById("git").addEventListener("click",(ev)=>{
+				myFunction()
+			},true)
             
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
