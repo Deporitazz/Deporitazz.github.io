@@ -57,7 +57,7 @@ a {
   box-sizing: border-box;
   display: block;
   font-family: "Frutiger";
-  background: url(jq-global-nav.png) repeat-x 0 bottom #252525;
+  background: url(jq-global-nav.png) repeat-x 0 bottom #252515;
 }
 nav a {
   color: white;
@@ -150,4 +150,25 @@ ul {
 #git {
   height: 30px;
   padding: 0px;
+}
+h4 {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    flex-direction: column-reverse;
+}
+@media only screen and (max-width : 799px ){
+	.desklogobar {
+		width: 100%;
+	}
+	.desklargelogo{
+		display: none !important;
+	}
+	.desknav {
+		position: absolute;
+		left: 0;
+		margin-top: 30px;
+		width: 100vw;
+	}
 }
