@@ -1,8 +1,152 @@
+body.default {
+  --color: rgb(211, 165, 242);
+  --dark-color: rgb(172, 132, 199);
+  background-image: url(bg3.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body.dark {
+  --color: rgb(0, 15, 67);
+  --dark-color: rgb(0, 7, 31);
+  background-image: url(darker.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body.glass {
+  --color: rgba(255, 255, 255, 0.1);
+  --dark-color: rgba(230, 230, 230, 0.144);
+  background-image: url(aero.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+body * {
+  color: white;
+  font-family: verdana;
+}
+body.default .logobar {
+  display: none;
+}
+body.dark .logobar {
+  display: none;
+}
+body.glass .logobar {
+  display: none;
+}
+body.default .classiclogo {
+  display: none;
+}
+body.default .melonlogo {
+  display: none;
+}
+body.default .aerologo {
+  display: none;
+}
+body.glass .classiclogo {
+  display: none;
+}
+body.dark .classiclogo {
+  display: none;
+}
+body.default .darklogo {
+  display: none;
+}
+body.glass .darklogo {
+  display: none;
+}
+body.dark .logo {
+  display: none;
+}
+body.default .classiclargelogo {
+  display: none;
+}
+body.glass .classiclargelogo {
+  display: none;
+}
+body.dark .classiclargelogo {
+  display: none;
+}
+body.default .darklargelogo {
+  display: none;
+}
+body.glass .darklargelogo {
+  display: none;
+}
+body.default .glasslargelogo {
+  display: none;
+}
+body.glass .desklargelogo {
+  display: none;
+}
+body.glass div {
+  backdrop-filter: blur(5px);
+}
+body.classic {
+  --color: rgb(17, 110, 186);
+  --dark-color: rgb(9, 78, 134);
+  background-image: url(bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body.classic .desklargelogo {
+  display: none;
+}
+body.classic .darklargelogo {
+  display: none;
+}
+body.classic .glasslargelogo {
+  display: none;
+}
+body.classic .darklogo {
+  display: none;
+}
+body.classic .aerologo {
+  display: none;
+}
+body.dark .aerologo {
+  display: none;
+}
+body.glass .logo {
+  display: none;
+}
+body.classic .logo {
+  display: none;
+}
+body.classic .melonlogo {
+  display: none;
+}
+body.dark .desklargelogo {
+  display: none;
+}
+body.dark .glasslargelogo {
+  display: none;
+}
 .desklogobar {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 34px;
   box-sizing: border-box;
   display: block;
@@ -10,11 +154,33 @@
   background: url(jq-global-nav.png) repeat-x 0 bottom #252525;
   display: flex;
   align-items: center;
+  animation-duration: 2s;
+  animation-name: slideInLeft;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
   justify-content: center;
 }
-.desklargelogo {
-  background: linear-gradient(to bottom, rgb(211, 165, 242) 0%, rgba(172, 132, 199) 100%);
-  background-image: linear-gradient(rgba(211, 165, 242) 0%, rgb(172, 132, 199) 100%);
+.desklargelogo, .classiclargelogo, .darklargelogo, .glasslargelogo {
+  background: linear-gradient(to bottom, var(--color) 0%, var(--dark-color) 100%);
+  max-width: 65%;
+  height: 150px;
+  padding-top: 10px;
+  margin: auto;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  animation-duration: 2s;
+  animation-name: slideInRight;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: left;
+  font-family: "Frutiger";
+  font-size: 50px;
+}
+.classiclargelogo, .darklargelogo, .glasslargelogo {
+  background: linear-gradient(to bottom, var(--color) 0%, var(--dark-color) 100%);
   max-width: 65%;
   height: 150px;
   padding-top: 10px;
@@ -30,7 +196,7 @@
   font-family: "Frutiger";
   font-size: 50px;
 }
-.logo {
+.logo, .darklogo, .classiclogo, .aerologo {
   width: 25px;
   height: 25px;
 }
@@ -41,7 +207,6 @@
 a {
   color: white;
   text-decoration: none;
-  font-family: "Frutiger";
 }
 @font-face {
   font-family: "frutiger";
@@ -52,12 +217,15 @@ a {
   left: 0;
   margin-top: 220px;
   margin: auto;
-  width: 64.4vw;
+  width: 65%;
   height: 34px;
   box-sizing: border-box;
   display: block;
-  font-family: "Frutiger";
+  animation-duration: 2s;
+  animation-name: slideInLeft;
   background: url(jq-global-nav.png) repeat-x 0 bottom #252515;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
 }
 nav a {
   color: white;
@@ -113,10 +281,10 @@ ul {
   border: none;
   cursor: pointer;
   padding: 0px;
-  background-image:  url("github-mark.png"), linear-gradient(rgba(211, 165, 242) 0%, rgb(172, 132, 199) 100%);
-  background-size: 30px,100%;
-	background-repeat: no-repeat;
-	background-position: center;
+  background-image: url("github-mark.png"), linear-gradient(rgba(211, 165, 242) 0%, rgb(172, 132, 199) 100%);
+  background-size: 30px, 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .dropbtn:hover, .dropbtn:focus {
   background-color: #3e8e41;
@@ -124,6 +292,10 @@ ul {
 .dropdown {
   position: absolute;
   right: 0;
+  color: black;
+}
+.appear {
+  color: black;
 }
 .dropdown-content {
   display: none;
@@ -152,23 +324,85 @@ ul {
   padding: 0px;
 }
 h4 {
-    font-size: 20px;
-    display: flex;
-    margin-bottom: 35px;
-    margin-left: 10px;
-    flex-direction: column-reverse;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 35px;
+  margin-left: 10px;
+  flex-direction: column-reverse;
 }
-@media only screen and (max-width : 799px ){
-	.desklogobar {
-		width: 100%;
-	}
-	.desklargelogo{
-		display: none !important;
-	}
-	.desknav {
-		position: absolute;
-		left: 0;
-		margin-top: 30px;
-		width: 100vw;
-	}
+.container {
+  width: 65%;
+  height: 1000px;
+  margin: 0px auto;
+}
+.section {
+  display: grid;
+  grid-template-areas:
+    "img info"
+    "subinfo subinfo";
+}
+.img {
+  grid-area: img;
+  width: 100%;
+  animation-duration: 2s;
+  animation-name: slideInRight;
+}
+.info {
+  grid-area: info;
+  background-image: linear-gradient(var(--color) 0%, var(--dark-color) 100%);
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  animation-duration: 2s;
+  animation-name: slideInRight;
+}
+.text {
+  padding-left: 7px;
+}
+.subinfo {
+  grid-area: subinfo;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  font-family: "frutiger";
+  padding: 10px;
+  padding-top: 10px;
+  color: white;
+  background: url(info.png) repeat-x 0 bottom #252525;
+  animation-duration: 2s;
+  animation-name: slideInLeft;
+}
+.footer {
+  width: 100%;
+  font-family: "frutiger";
+  height: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: url(info.png) repeat-x 0 bottom #252525;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  animation-duration: 2s;
+  animation-name: slideInRight;
+}
+.img {
+  height: 283px;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 1px 4px rgba(255, 255, 255, 0.5);
+}
+.img1 {
+  align-content: center;
+  display: flex;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75), inset 0px 0px 0px 1px rgba(37, 34, 34, 0.5), inset 0px -1px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 1px 0px 1px rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width : 799px) {
+  .desklogobar {
+    width: 100%;
+  }
+  .desklargelogo {
+    display: none !important;
+  }
+  .desknav {
+    position: absolute;
+    left: 0;
+    margin-top: 30px;
+    width: 100vw;
+  }
 }
