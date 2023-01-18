@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dead {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	display: none;
+	text-align: center;
+	width: 100vw;
+	font-size: 120pt;
+	color:red;
+	text-shadow: 5px 5px 10px black;
+}
+@font-face {
+  font-family: "frutiger";
+  src: url('Frutiger.ttf');
+}
+#logo {
+	z-index: 999;
+}
+#logo:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+body {
+    font-family: 'frutiger';
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="dead">you died :(</h1>
+        <img src="jerma.png" alt="VSCode logo" id="logo" width="100" onclick="game()">
+		<p id="score" style="display:none;"></p>
+    </header>
+    <script src="jermgame.js"></script>
+</body>
+</html>
