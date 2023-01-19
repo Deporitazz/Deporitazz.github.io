@@ -1,44 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #dead {
-	position: fixed;
-	top: 50%;
-	transform: translateY(-50%);
-	display: none;
-	text-align: center;
-	width: 100vw;
-	font-size: 120pt;
-	color:red;
-	text-shadow: 5px 5px 10px black;
-}
-@font-face {
-  font-family: "frutiger";
-  src: url('Frutiger.ttf');
-}
-#logo {
-	z-index: 999;
-}
-#logo:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-}
-body {
-    font-family: 'frutiger';
-}
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon (1).ico">
+  <title>Cerulean | Home</title>
+  <link rel="stylesheet" href="jermgame.css">
 </head>
-<body>
-    <header>
-        <h1 id="dead">you died :(</h1>
-        <img src="jerma.png" alt="VSCode logo" id="logo" width="100" onclick="game()">
-		<p id="score" style="display:none;"></p>
-    </header>
-    <script src="jermgame.js"></script>
+
+<body class="default">
+  <div class="desklogobar" class="box2d">
+    <a href="index.html">
+      <img src="orblogo.png" alt="smalllogo" class="logo" class="box2d">
+      Cerulean
+    </a>
+    <div class="dropdown" class="box2d">
+      <button class="dropbtn" class="box2d" id="git"></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="coverflow.html" target="_blank">Coverflow</a>
+        <a href="https://github.com/Deporitazz" target="_blank">Coverflow</a>
+          <ul>
+            <label for="theme" class="appear">Default</label>
+            <input type="radio" name="theme" id="default" checked>
+          </ul>
+          <ul>
+            <label for="theme" class="appear">Classic</label>
+            <input type="radio" name="theme" id="classic">
+          </ul>
+          <ul>
+            <label for="theme" class="appear">Dark</label>
+            <input type="radio" name="theme" id="dark">
+          </ul>
+          <ul>
+            <label for="theme" class="appear">glass</label>
+            <input type="radio" name="theme" id="glass">
+          </ul>
+          </li>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="desklargelogo" class="box2d">
+      <img src="orblogo.png" alt="largelogo" class="largelogo" class="box2d">
+      <h3>Cerulean</h3>
+    </div>
+  </header>
+  <nav class="desknav" class="box2d">
+    <ul class="navbutton" class="box2d">
+      <li>
+          Home
+      </li>
+    </ul>
+    <ul class="navbutton" class="box2d">
+        Page 2
+    </ul>
+    <ul class="navbutton" class="box2d">
+        Old page
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="section" class="box2d">
+      <img class="img" class="box2d" src="dark.jpeg">
+      <div class="info" class="box2d">
+        <p class="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, sed corrupti. Alias ipsam quia optio inventore
+          <br>
+          aliquid sit ducimus in, voluptate minus consequatur omnis accusantium iste, illum vitae tenetur voluptatem!
+        </p>
+      </div>
+      <div class="subinfo box2d">
+        <p>
+          lorem ipsum dolor.
+        </p>
+      </div>
+    </div>
+
+    <div class="section" class="box2d">
+      <img src="smallhoney.png" class="img" class="box2d">
+      <div class="info" class="box2d">
+        <p class="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, sed corrupti. Alias ipsam quia optio inventore
+          aliquid sit ducimus in, voluptate minus consequatur omnis accusantium iste, illum vitae tenetur voluptatem!
+        </p>
+      </div>
+    </div>
+    <footer class="footer" class="box2d">
+      <i>All images are taken by me or found on this site https://pixabay.com/</i>
+    </footer>
+  </div>
+  <script src="jermgame.js"></script>
+  <script src="jermgame2.js"></script>
+  <script src="themescript.js"></script>
 </body>
+
 </html>
