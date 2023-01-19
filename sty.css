@@ -1,0 +1,64 @@
+:root {
+    --glow: 30px;
+  }
+  
+  @font-face {
+    font-family: "Kosan";
+    src: url(KosanNonCommercial.otf);
+  }
+  
+  body {
+    background-color: black;
+    font-family: Kosan;
+  }
+  .flicker {
+    animation: flicker 6s linear 0s infinite alternate;
+  }
+  .blue {
+    color: rgb(53, 174, 255);
+    text-shadow: 0px 0px var(--glow) rgb(0, 153, 255);
+    animation-duration: 5s;
+    animation-delay: -1s;
+  }
+  .red {
+    color: rgb(255, 72, 118);
+    text-shadow: 0px 0px var(--glow) rgb(255, 38, 92);
+    animation-duration: 7s;
+    animation-delay: 1s;
+  }
+  .green {
+    color: rgb(98, 255, 145);
+    text-shadow: 0px 0px var(--glow) rgb(36, 255, 102);
+    animation-duration: 6.5s;
+    animation-delay: 3s;
+  }
+  
+  @keyframes flicker {
+    0% { opacity: 100%; }
+  
+    10% { opacity: 100%; }
+    11% { opacity: 0%; }
+    12% { opacity: 100%; }
+    13% { opacity: 0%; }
+    14% { opacity: 100%; }
+  
+    30% { opacity: 100%; }
+    31% { opacity: 0%; }
+    32% { opacity: 100%; }
+  
+    50% { opacity: 100%; }
+    51% { opacity: 0%; }
+    52% { opacity: 100%; }
+  
+    70% { opacity: 100%; }
+    71% { opacity: 0%; }
+    73% { opacity: 0%; }
+    74% { opacity: 100%; }
+  
+  
+    90% { opacity: 100%; }
+    91% { opacity: 0%; }
+    92% { opacity: 100%; }
+  
+    100% { opacity: 100%; }
+  }
