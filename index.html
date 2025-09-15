@@ -6,21 +6,22 @@
     <title>Hi Hi HI</title>
 </head>
 <body>
-    <header style="background-color:green; height:200px; width: 700px;">
-        hi
-    </header>
-
-    <div class="flex">
-        <div class="item"></div>
-        <div class="item"></div>
-    </div>
-
-
+    <div class="wrapper">
+  <header class="header">Header</header>
+  <article class="main">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+  </article>
+  <aside class="aside aside-1">Aside 1</aside>
+  <aside class="aside aside-2">Aside 2</aside>
+  <footer class="footer">Footer</footer>
 
     <style>
-        .flex {
-            display:flex;
-        }
+          .main { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
     </style>
+</div>
 </body>
 </html>
